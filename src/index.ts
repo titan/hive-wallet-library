@@ -4,6 +4,7 @@ export interface Account {
   uid: string;
   balance0: number;
   balance1: number;
+  paid: number;
   bonus: number;
   frozen_balance0: number;
   frozen_balance1: number;
