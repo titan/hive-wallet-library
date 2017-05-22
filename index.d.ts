@@ -13,6 +13,7 @@ export interface Account {
     created_at: Date;
     updated_at: Date;
     vehicle?: any;
+    project: number;
 }
 export interface Wallet {
     uid?: string;
@@ -20,6 +21,7 @@ export interface Wallet {
     cashable: number;
     balance: number;
     accounts: Account[];
+    project: number;
 }
 export interface Transaction {
     id: string;
@@ -33,4 +35,5 @@ export interface Transaction {
     oid?: string;
     maid?: string;
     sn?: string;
+    project: number;
 }
