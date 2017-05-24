@@ -1,3 +1,6 @@
+import { Person } from "person-library";
+import { Vehicle } from "vehicle-library";
+
 export interface Account {
   id: string;
   vid: string;
@@ -13,6 +16,8 @@ export interface Account {
   created_at: Date;
   updated_at: Date;
   vehicle?: any;
+  license?: string; // useful for project = 2 or project = 3
+  owner?: Person; // only used for project = 2 or project = 3
   project: number;
 };
 

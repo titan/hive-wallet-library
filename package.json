@@ -1,6 +1,6 @@
 {
   "name": "wallet-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,5 +13,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "person-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/person-library.git",
+    "vehicle-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/vehicle-library.git"
+  }
 }

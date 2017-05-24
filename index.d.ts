@@ -1,3 +1,4 @@
+import { Person } from "person-library";
 export interface Account {
     id: string;
     vid: string;
@@ -13,6 +14,8 @@ export interface Account {
     created_at: Date;
     updated_at: Date;
     vehicle?: any;
+    license?: string;
+    owner?: Person;
     project: number;
 }
 export interface Wallet {
