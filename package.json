@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.fengchaohuzhu.com:10022/server/wallet-library.git"
+    "url": "ssh://git@github.com/titan/hive-wallet-library.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "person-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/person-library.git",
-    "vehicle-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/vehicle-library.git"
+    "person-library": "git+ssh://git@github.com/titan/hive-person-library.git",
+    "vehicle-library": "git+ssh://git@github.com/titan/hive-vehicle-library.git"
   }
 }
